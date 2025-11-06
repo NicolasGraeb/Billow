@@ -3,7 +3,7 @@
 Make group expenses painless. Create an event, invite friends, log purchases from anyone, and close the loop with an **optimized set of transfers** so nobody has to do mental math or send ten tiny payments.
 
 <p align="center">
-  <img src="readme_photos/bills_summary.jpg" alt="Bills Summary" width="800">
+  <img src="readme_photos/bills_summary.jpg" alt="Bills Summary" width="50%">
 </p>
 
 ---
@@ -48,22 +48,30 @@ Make group expenses painless. Create an event, invite friends, log purchases fro
 ### Optimized Bills Summary
 Shows the minimal set of transfers required to settle the event, avoiding unnecessary back-and-forth.
 
-![Bills Summary](readme_photos/bills_summary.jpg)
+<p align="center">
+  <img src="readme_photos/bills_summary.jpg" alt="Bills Summary" width="50%">
+</p>
 
 ### Event Page
 The owner can modify any expense, add or remove people, and close the event when done. Every participant can add expenses at any time until the event is closed.
 
-![Event Page](readme_photos/event_page.jpg)
+<p align="center">
+  <img src="readme_photos/event_page.jpg" alt="Event Page" width="50%">
+</p>
 
 ### Friend Search
 Fast friend lookup to invite people to your events.
 
-![Friend Search](readme_photos/friend_search.jpg)
+<p align="center">
+  <img src="readme_photos/friend_search.jpg" alt="Friend Search" width="50%">
+</p>
 
 ### User Profile
 Accept or decline friend requests and see the events you’re in (past and ongoing).
 
-![User Profile](readme_photos/user_profile.jpg)
+<p align="center">
+  <img src="readme_photos/user_profile.jpg" alt="User Profile" width="50%">
+</p>
 
 ---
 
@@ -88,7 +96,7 @@ This yields a compact, human-friendly settlement plan.
 
 ## Tech Stack
 
-- **Backend**: Python, FastAPI, Pydantic, SQLAlchemy/SQLModel, PostgreSQL
+- **Backend**: Python, FastAPI, Pydantic, SQLAlchemy, PostgreSQL
 - **Auth**: JWT (access/refresh) stored in secure store
 - **Mobile App**: React Native, Expo Router, TypeScript
 
